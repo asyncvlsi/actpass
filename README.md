@@ -12,3 +12,16 @@ To run this example, you need the ACT standard library and `interact` installed.
 This will install `test_pass.so` into `$ACT_HOME/lib`
 
 To see the pass in action, run the interact script `test.ia` provided.
+```
+$ interact
+interact> source test.ia
+Hello, initialized pass!
+Visiting channel type ::std::channel::bd<7>, mode 0
+Visiting channel type ::std::channel::bd<4>, mode 0
+Visiting process foo<>, mode 0
+Visiting process test<>, mode 0
+received commmand hi there
+  argtest = -1
+received commmand hi-again
+  argtest = 42
+```
