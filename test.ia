@@ -1,0 +1,25 @@
+#
+# Example interact script
+#
+
+#
+# Read in design and set top-level process name
+#
+act:read "test.act"
+act:expand
+act:top test
+
+#
+# Load the dynamic pass
+#
+act:pass:load "test_pass.so" "mypass" "pass_test"
+
+# run pass
+act:pass:run "mypass" 0
+
+# run pass command
+act:pass:runcmd "mypass" "hi there"
+
+# argument passing from script to pass
+act:pass:set_int "mypass" "argtest" 42
+act:pass:runcmd "mypass" "hi-again"

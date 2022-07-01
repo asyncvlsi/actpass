@@ -1,0 +1,14 @@
+import std;
+
+defproc foo()
+{
+  std::channel::bd<4> x;
+  std::channel::bd<7> y;
+  std::channel::bd<4> z;
+}
+
+
+defproc test()
+{
+   foo f[4];
+}
