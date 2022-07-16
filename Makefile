@@ -29,4 +29,7 @@ include $(ACT_HOME)/scripts/Makefile.std
 $(LIB): $(SHOBJS)
 	$(ACT_HOME)/scripts/linkso $(LIB) $(SHOBJS) $(SHLIBACTPASS)
 
+doc: 
+	doxygen
+
 -include Makefile.deps
