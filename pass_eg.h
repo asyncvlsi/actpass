@@ -80,7 +80,7 @@ extern "C" {
 
 
   /**
-   *     @fn pass_test_run (ActPass *ap, Process *p);
+   * @fn pass_test_run (ActPass *ap, Process *p);
    * @param ap The ActPass pointer corresponding to this pass.
    * @param p The expanded top-level process to operate on.
    *

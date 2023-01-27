@@ -5,6 +5,8 @@ This repository contains an example pass that can be loaded in dynamically into 
 
 A number of existing core passes are written this way, including the layout generation passes.
 
+For additional documentation, run `doxygen`.
+
 # Running the example
 
 To run this example, you need the ACT standard library and `interact` installed. After that,
