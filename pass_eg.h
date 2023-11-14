@@ -84,8 +84,8 @@ extern "C" {
    * @param ap The ActPass pointer corresponding to this pass.
    * @param p The expanded top-level process to operate on.
    *
-   * This is the main function that is called to run an act
-   * pass. Normally this can be left undefined, as the default function
+   * This is the main function that is called right after a pass is run.
+   * Normally this can be left undefined, as the default function
    * "does the right thing."
    */
   void pass_test_run (ActPass *ap, Process *p);
